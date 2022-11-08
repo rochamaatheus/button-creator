@@ -18,7 +18,7 @@ com base na escolha do usuário
 
 <h2>🖥️ Demonstração</h2>
 
-[![Gerador Botão](https://i.imgur.com/ZyDF5bo.png "Clique para acessar o projeto")](https://rochamaatheus.github.io/button-creator/ "Clique para acessar o projeto")   
+[![Gerador Botão](https://i.imgur.com/5ArAMzS.png "Clique para acessar o projeto")](https://rochamaatheus.github.io/button-creator/ "Clique para acessar o projeto")   
 
 Você pode acessar o projeto clicando [aqui](https://rochamaatheus.github.io/button-creator/).
 
