@@ -33,14 +33,15 @@
         <option value="monospace">Monospace</option>
       </select>
       <label for="fontSize">fontSize</label>
-      <input type="number" name="fontSize" id="fontSize" min="10">
+      <input type="number" name="fontSize" id="fontSize" min="1" max="10">
     </form>
     <section class="result">
       <button class="btn">Clique</button>
-      <pre><code class="css"></code></pre>
+      <pre><code class="css" id="copy"></code></pre>
+      <button class="copiar" data-clipboard-target="#copy">Copiar Código</button>
     </section>
   </section>
-
+  <script src="./clipboard.min.js"></script>
   <script src="./script.js"></script>
 </body>
 

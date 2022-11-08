@@ -1,6 +1,7 @@
 const controles = document.getElementById('controles');
 const cssText = document.querySelector('.css');
 const btn = document.querySelector('.btn');
+const btn2 = document.querySelector('.copiar');
 
 controles.addEventListener('change', handleChange);
 
@@ -49,11 +50,13 @@ function saveValues(name, value) {
 
 function setValues() {
   const properties = Object.keys(localStorage);
-  properties.forEach((property) => {
-    handleStyle[property](localStorage[property]);
-    controles.elements[property] = localStorage[property];
-  });
-  showCss(btn.style.cssText);
+  if (properties.length !== 0) {
+    properties.forEach((property) => {
+      handleStyle[property](localStorage[property]);
+      controles.elements[property] = localStorage[property];
+    });
+    showCss(btn.style.cssText);
+  }
 }
 
 setValues();
@@ -61,3 +64,5 @@ setValues();
 function showCss(value) {
   cssText.innerHTML = '<span>' + value.split('; ').join(';</span><span>');
 }
+
+new ClipboardJS('.copiar');

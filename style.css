@@ -34,3 +34,14 @@ input {
   display: block;
   margin-bottom: .5rem;
 }
+.css span::selection {
+  background-color: inherit;
+}
+@media (max-width: 600px) {
+  .button-creator {
+    grid-template-columns: 1fr;
+  }
+  #controles {
+    max-width: 250px;
+  }
+}
