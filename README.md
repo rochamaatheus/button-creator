@@ -5,7 +5,7 @@
 Este site foi desenvolvido no curso de **JavaScript Completo ES6** da **Origamid**.
 Este site foi desenvolvido para entender como funciona o LocalStorage da máquina. Aqui fiz uma criação simples utilizando JavaScript que gera um botão
 com base na escolha do usuário.
-Este site não tem finalidade de ser bonito ou totalmente funcional.
+Este site não foi criado para ser totalmente funcional ou visualmente bonito, apenas para estudo.
 
 <hr>
 
